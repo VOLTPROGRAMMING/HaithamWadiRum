@@ -12102,6 +12102,10 @@ body.dark-theme {
   .formbold-form-wrapper {
     max-width: 100%;
   }
+
+  .formbold-input-flex {
+    width: 100%;
+  }
 }
 /* end book page */
 
