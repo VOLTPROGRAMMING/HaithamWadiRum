@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Devcrud">
+    <title>Dorang</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="../assets/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Bootstrap + Dorang main styles -->
+	<link rel="stylesheet" href="../assets/css/dorang.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="dark-theme">
+    
+    <!-- start navbar -->
+    <nav class="page-navbar navbar navbar-expand-lg" data-spy="affix" data-offset-top="10">
+      <div class="container-fluid">
+        <a class="navbar-brand d-md-none" href="../index.html">
+          <img src="../assets/imgs/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="ti-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="navbar-brand d-none d-md-block" href="../index.html">
+                  <img src="../assets/imgs/logo.png" alt="">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tours
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="tour+bivouac.html">TOUR+BIVOUAC</a></li>
+                <li><a class="dropdown-item" href="tour+camp.html">TOUR+CAMP</a></li>
+                <li><a class="dropdown-item" href="familyTours.html">FAMILY TOURS</a></li>
+                <li><a class="dropdown-item" href="dayTours.html">DAY TOURS</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Hiking
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="dayHikes.html">DAY HIKES</a></li>
+                <li><a class="dropdown-item" href="camelRide.html">CAMEL RIDE</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Overnight
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="bivouacCamping.html">BIVOUAC CAMPING</a></li>
+                <li><a class="dropdown-item" href="bedouinCampsite.html">BEDOUIN CAMPSITE</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Information
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                <li><a class="dropdown-item" href="about.html">ABOUT</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="book.html">BOOkING</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start form book -->
+    <div class="formbold-main-wrapper mt-5">
+        <div class="formbold-form-wrapper">
+      
+          <form action="" method="POST">
+            <div class="formbold-form-title text-center">
+              <h2 class="">Register now</h2>
+              <p>
+                Fill the form below with your data and choose your package
+              </p>
+            </div>
+      
+            <div class="formbold-input-flex">
+              <div>
+                <label for="firstname" class="formbold-form-label">
+                  First name
+                </label>
+                <input type="text" name="firstname" id="firstname" class="formbold-form-input" required/>
+              </div>
+              <div>
+                <label for="lastname" class="formbold-form-label"> Last name </label>
+                <input type="text" name="lastname" id="lastname" class="formbold-form-input" required/>
+              </div>
+            </div>
+      
+            <div class="formbold-input-flex">
+              <div>
+                <label for="email" class="formbold-form-label"> Email </label>
+                <input type="email" name="email" id="email" class="formbold-form-input" required/>
+              </div>
+              <div>
+                <label for="phone" class="formbold-form-label"> Phone number </label>
+                <input type="text" name="phone" id="phone" class="formbold-form-input" required/>
+              </div>
+            </div>
+
+            <div class="formbold-input-flex">
+              <div>
+                <label for="phone" class="formbold-form-label"> Arrival date </label>
+                <input type="date" name="phone" id="phone" class="formbold-form-input" required/>
+              </div>
+              <div>
+                <label class="formbold-form-label">Arrival time</label>
+                <select class="formbold-form-input" name="occupation" id="occupation" required>
+                  <option value="male">Early Morning (before the tour)</option>
+                  <option value="female">Late afternoon</option>
+                </select>
+              </div>
+              <div>
+                <label for="phone" class="formbold-form-label"> Departure date </label>
+                <input type="date" name="phone" id="phone" class="formbold-form-input" required/>
+              </div>
+            </div>
+      
+            <div class="formbold-input-flex">
+              <div>
+                <label class="formbold-form-label">Guided Tour</label>
+                <select class="formbold-form-input" name="occupation" id="occupation" required>
+                  <option value="male">Guided Jeep Tour</option>
+                  <option value="female">Guided Hiking Tour</option>
+                  <option value="female">Camel Tour (+25 JOD extra/day/person)</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="formbold-form-label">Accomodation choice</label>
+                <select class="formbold-form-input" name="occupation" id="occupation" required>
+                  <option value="male">Traditional tent in the campsite</option>
+                  <option value="female">Sleep under the stars - Bivouac</option>
+                  <option value="female">None</option>
+                </select>
+              </div>
+            </div>
+      
+            <div class="formbold-mb-3">
+              <div>
+                <label class="formbold-form-label">Your package (children discount will apply on arrival)</label>
+                <select class="formbold-form-input" name="occupation" id="occupation" required>
+                  <option value="male">Tour + Accomodation + 3 meals/day (24h) - 2 or 3 people : 60 JOD/day/pers.</option>
+                  <option value="female">Tour + Accomodation + 3 meals/day (24h) - 4 to 6 people: 50 JOD/day/pers.</option>
+                  <option value="female">Tour + Accomodation + 3 meals/day (24h) - 7 people and more : 45 JOD/day/pers.</option>
+                  <option value="female">Tour + Accomodation + 3 meals/day (24h) - 1 person : 80 JOD/day</option>
+                  <option value="female">Itinerant multiple days hike with bivouac (min. 2 pers.) : 75 JOD/p. per day</option>
+                  <option value="female">Extra night in bivouac with dinner and breakfast : 25 JOD/pers.</option>
+                  <option value="female">Extra night in bedouin camp with dinner and breakfast : 20 JOD/pers.</option>
+                  <option value="female">Camel Ride Sunrise or Sunset - 30 JOD/pers</option>
+                  <option value="female">Jeep 4h - Umm Fruth Rock Bridge Tour - 1 or 2 persons : 110 JOD (+10 JOD/p. extra)</option>
+                  <option value="female">Jeep 7h - Classic or Burdah Rock Bridge Tour - 1 or 2 persons : 120 JOD (+60 JOD/p. extra)</option>
+                  <option value="female">Jeep 8h - Jabal al Hash Tour - 1 or 2 persons : 150 JOD (+75 JOD/p. extra)</option>
+                  <option value="female">Hiking 3h - Jabal Burdah Rock Bridge - 1 or 2 persons : 120 JOD (+60 JOD/p. extra)</option>
+                  <option value="female">Hiking 6h - Umm ad Dami submit - 1 or 2 persons : 170 JOD</option>
+                  <option value="female">Hiking 6h - Umm ad Dami submit - 3 persons : 210 JOD (+70 JOD/p. extra)</option>
+                  <option value="female">Other combination : Please message us</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="formbold-mb-3">
+              <label for="message" class="formbold-form-label">Your message</label>
+              <textarea rows="6" name="message" id="message" class="formbold-form-input"></textarea>
+            </div>
+      
+            <div class="formbold-checkbox-wrapper">
+              <label for="supportCheckbox" class="formbold-checkbox-label">
+                <div class="formbold-relative">
+                  <input type="checkbox" id="supportCheckbox" class="formbold-input-checkbox"/>
+                  <div class="formbold-checkbox-inner">
+                    <span class="formbold-opacity-0">
+                      <svg width="11" height="8" viewBox="0 0 11 8" fill="none" class="formbold-stroke-current">
+                        <path d="M10.0915 0.951972L10.0867 0.946075L10.0813 0.940568C9.90076 0.753564 9.61034 0.753146 9.42927 0.939309L4.16201 6.22962L1.58507 3.63469C1.40401 3.44841 1.11351 3.44879 0.932892 3.63584C0.755703 3.81933 0.755703 4.10875 0.932892 4.29224L0.932878 4.29225L0.934851 4.29424L3.58046 6.95832C3.73676 7.11955 3.94983 7.2 4.1473 7.2C4.36196 7.2 4.55963 7.11773 4.71406 6.9584L10.0468 1.60234C10.2436 1.4199 10.2421 1.1339 10.0915 0.951972ZM4.2327 6.30081L4.2317 6.2998C4.23206 6.30015 4.23237 6.30049 4.23269 6.30082L4.2327 6.30081Z" stroke-width="0.4"></path>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                I agree to the defined
+                <a href="#"> terms, conditions, and policies</a>
+              </label>
+            </div>
+      
+            <button class="formbold-btn">Booking Now</button>
+          </form>
+        </div>
+      </div>
+    <!-- end form book -->
+
+
+    <!--footer -->
+    <div class="contact-section" id="contact">
+      <footer class="footer">
+        <p class="infos">&copy; <a href="" class="color">Haitham Wadi Rum</a> All Rights Reserved 
+        <script>document.write(new Date().getFullYear())</script>, 
+        Made with by <a href="https://wa.me/+0201011562897" target="_blank" class="color"> Volt Programming <i class="ti-heart text-danger"></i></a></p>     
+        <span>|</span>  
+        <div class="links">
+            <a href="https://www.facebook.com/heitham.my?mibextid=ZbWKwL" target="_blank"><i class="ti-facebook"></i></a>
+            <a href="https://instagram.com/alzalabeah?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank"><i class="ti-instagram"></i></a>
+            <a href="https://wa.me/+962780739393" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp mb-2" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+              </svg>
+            </a>
+        </div>
+      </footer>
+        </div>
+    </div>
+
+    <!-- core  -->
+    <script src="../assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="../assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.XYZ/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- bootstrap affix -->
+    <script src="../assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Dorang js -->
+    <script src="../assets/js/dorang.js"></script>
+
+</body>
+</html>
