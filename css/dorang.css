@@ -12097,6 +12097,12 @@ body.dark-theme {
 .contact-section {
     padding-top: 0;
 }
+
+@media (max-width: 675px) {
+  .formbold-form-wrapper {
+    max-width: 100%;
+  }
+}
 /* end book page */
 
 /* start tour+bivouac page */
